@@ -1,0 +1,57 @@
+.logo-location{
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    justify-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.store-name{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.menu-text ul li a{
+    color: #131230;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px
+}
+
+
+@media (min-width: 740px) {
+    .hide-on-mobile{
+        display: none;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .hide-on-pc-tablet{
+        display: none;
+    }
+}
+/* từ tablet pc trở lên  */
+/* @media (min-width: 1024px) and (max-width: 1239px) {
+    .hide-on-pc{
+        display: none;
+    }
+} */
+@media (min-width: 1024px){
+    .hide-on-pc{
+        display: none;
+    }
+}
